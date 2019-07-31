@@ -9,11 +9,15 @@ end
 def find_max_value(array)
   counter = 0 
   while counter < array.length do
-    return array.max()   #--> find index number of input element 
+    return array.max()   #--> find max number in array of integers  
     counter +=1 
   end
 end
 
 def find_min_value(array)
-  # Add your solution here
+ counter = 0 
+  while counter < array.length do
+    return array.max()   #--> find index number of input element 
+    counter +=1 
+  end
 end
