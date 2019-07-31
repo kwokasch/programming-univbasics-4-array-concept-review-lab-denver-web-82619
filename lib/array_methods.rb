@@ -17,7 +17,7 @@ end
 def find_min_value(array)
  counter = 0 
   while counter < array.length do
-    return array.max()   #--> find index number of input element 
+    return array.min()   #--> find min number in array of integers 
     counter +=1 
   end
 end
